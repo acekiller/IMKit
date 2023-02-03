@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "IMKit"
   spec.version      = "0.0.1"
-  spec.summary      = "派IM"
+  spec.summary      = "极光IM的快速集成框架。"
 
   spec.subspec 'DisplayKit' do |ss|
     ss.source_files = 'IMKit/IMKit/DisplayKit/**/*'
@@ -47,10 +47,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  IMKit是建立在派的IM需求上，构建的IM框架
+  基于极光IM的UI功能可扩展化开发框架。基于此框架，可以更快速的实现极光IM的集成，降低极光IM的复杂度。同时，在框架中引入了一个小的统计框架AccumulateBag用于实现自建统计服务工能。AccumulateBag的功能参考: https://github.com/acekiller/AccumulateBag.git
                    DESC
 
-  spec.homepage     = "http://192.168.1.222:14253/fengxj/imkit"
+  spec.homepage     = "https://github.com/acekiller/IMKit.git"
 
   spec.license      = "MIT"
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://192.168.1.222:14253/fengxj/imkit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/acekiller/IMKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
