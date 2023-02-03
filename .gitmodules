@@ -1,0 +1,6 @@
+[submodule "submodules/YHPhotoKit"]
+	path = submodules/YHPhotoKit
+	url = https://github.com/acekiller/YHPhotoKit.git
+[submodule "submodules/accumulatebag"]
+	path = submodules/accumulatebag
+	url = https://github.com/acekiller/AccumulateBag.git
